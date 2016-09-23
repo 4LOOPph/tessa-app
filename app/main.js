@@ -49,8 +49,8 @@ function createMainWindow() {
         }
     });
 
-    // app_view.loadURL('http://4loopph.github.io/projects/projects/tessa/');
-    app_view.loadURL('http://tessa.cc');
+    app_view.loadURL('http://4loopph.github.io/projects/projects/tessa/');
+    // app_view.loadURL('http://tessa.cc');
 
     // When window is closed, hide window
     app_view.on('close', e => {
@@ -78,7 +78,7 @@ app.on('ready', () => {
     app_page.on('dom-ready', () => {
 
         // Stock style additions
-        // app_page.insertCSS(fs.readFileSync(path.join(__dirname, 'style/app.css'), 'utf8'));
+        app_page.insertCSS(fs.readFileSync(path.join(__dirname, 'style/app.css'), 'utf8'));
 
         // MacOS Logo offset
         // if (process.platform == 'darwin') { app_page.insertCSS('.navbar-left{ margin-left: 64px;!important; }'); }
