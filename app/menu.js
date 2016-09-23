@@ -105,21 +105,21 @@ var template_win = [{
     label: 'Help',
     role: 'help',
     submenu: [{
-        label: 'About Ionic-Creator',
+        label: 'About Tessa',
         click: function() {
-            require('electron').shell.openExternal("https://github.com/Meadowcottage/Ionic-Creator/releases/tag/" + app_version)
+            require('electron').shell.openExternal("https://github.com/4LOOPph/tessa-app/releases/tag/" + app_version)
         }
     }, {
-        label: 'View Ionic-Creator',
+        label: 'View Tessa',
         click: function() {
-            require('electron').shell.openExternal("https://creator.ionic.io/")
+            require('electron').shell.openExternal("https://tessa.cc/")
         }
     }, {
         type: 'separator'
     }, {
         label: 'Changelog',
         click: function() {
-            require('electron').shell.openExternal("https://github.com/Meadowcottage/Ionic-Creator/releases/tag/" + app_version)
+            require('electron').shell.openExternal("https://github.com/4LOOPph/tessa-app/releases/tag/" + app_version)
         }
     }]
 }];
@@ -233,21 +233,21 @@ var template_osx = [{
     label: 'Help',
     role: 'help',
     submenu: [{
-        label: 'About Ionic-Creator',
+        label: 'About Tessa',
         click: function() {
-            require('electron').shell.openExternal("https://github.com/Meadowcottage/Ionic-Creator/releases/tag/" + app_version)
+            require('electron').shell.openExternal("https://github.com/4LOOPph/tessa-app/releases/tag/" + app_version)
         }
     }, {
-        label: 'View Ionic-Creator',
+        label: 'View Tessa',
         click: function() {
-            require('electron').shell.openExternal("https://creator.ionic.io/")
+            require('electron').shell.openExternal("https://tessa.cc/")
         }
     }, {
         type: 'separator'
     }, {
         label: 'Changelog',
         click: function() {
-            require('electron').shell.openExternal("https://github.com/Meadowcottage/Ionic-Creator/releases/tag/" + app_version)
+            require('electron').shell.openExternal("https://github.com/4LOOPph/tessa-app/releases/tag/" + app_version)
         }
     }]
 }];

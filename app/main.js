@@ -41,7 +41,8 @@ function createMainWindow() {
         movable: true,
         fullscreenable: true,
         autoHideMenuBar: true,
-        titleBarStyle: 'hidden-inset',
+        // titleBarStyle: 'hidden-inset',
+        titleBarStyle: 'default',
         webPreferences: {
             nodeIntegration: false,
             plugins: true
@@ -68,7 +69,7 @@ function createMainWindow() {
 app.on('ready', () => {
     mainWindow = createMainWindow();
     menu.setApplicationMenu(require('./menu'))
-    
+
     if (app_is_dev) { mainWindow.openDevTools() }
 
     const app_page = mainWindow.webContents;
