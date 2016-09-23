@@ -1,5 +1,5 @@
 <img src="https://raw.githubusercontent.com/4LOOPph/tessa-app/master/build/tessa-png.png" align="left" width="89px" height="39px"/>
-<img align="left" width="0" height="192px" hspace="10"/>
+<img align="left" width="0" height="39px" hspace="10"/>
 
 # TESSA (UNOFFICIAL)
 > This is the unofficial [Tessa](https://creator.ionic.io/) web app. Built using the [Electron](http://electron.atom.io) framework to take the current live feed site and give it to you as a desktop app.
