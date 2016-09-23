@@ -49,7 +49,8 @@ function createMainWindow() {
         }
     });
 
-    app_view.loadURL('http://4loopph.github.io/projects/projects/tessa/');
+    // app_view.loadURL('http://4loopph.github.io/projects/projects/tessa/');
+    app_view.loadURL('http://tessa.cc');
 
     // When window is closed, hide window
     app_view.on('close', e => {
@@ -70,7 +71,7 @@ app.on('ready', () => {
     mainWindow = createMainWindow();
     menu.setApplicationMenu(require('./menu'))
 
-    if (app_is_dev) { mainWindow.openDevTools() }
+    // if (app_is_dev) { mainWindow.openDevTools() }
 
     const app_page = mainWindow.webContents;
 
