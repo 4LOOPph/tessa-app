@@ -13,6 +13,8 @@
 
 [<img alt='Ionic Creator' src="https://raw.githubusercontent.com/4LOOPph/tessa-app/master/build/2.png">](https://github.com/4LOOPph/tessa-app/releases)
 
+[<img alt='Ionic Creator' src="https://raw.githubusercontent.com/4LOOPph/tessa-app/master/build/3.png">](https://github.com/4LOOPph/tessa-app/releases)
+
 ## Downloads
 > Downloads can be found on the [releases page](https://github.com/4LOOPph/tessa-app/releases)
 
