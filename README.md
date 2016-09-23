@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/4LOOPph/tessa-app/master/build/icon.png" align="left" width="192px" height="192px"/>
+<img src="https://raw.githubusercontent.com/4LOOPph/tessa-app/master/build/tessa-png.png" align="left" width="192px" height="192px"/>
 <img align="left" width="0" height="192px" hspace="10"/>
 
 # TESSA (UNOFFICIAL)
