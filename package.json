@@ -61,7 +61,7 @@
     "electron-is-dev": "^0.1.2"
   },
   "devDependencies": {
-    "electron": "^1.4.1",
+    "electron": "^9.1.0",
     "electron-builder": "^7.3.0",
     "rimraf": "^2.5.4",
     "spectron": "^3.4.0"
